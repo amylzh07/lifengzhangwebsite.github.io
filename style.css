@@ -21,3 +21,6 @@ nav {
     width: 100%;
 }
 
+.container-fluid {
+    background-image: url("lifeng-zhang.jpg");
+}
