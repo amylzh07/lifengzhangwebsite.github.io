@@ -1,10 +1,10 @@
 .zoomImage {
-    width: 500px;
+    width: 800px;
     transition: width 1s;
 }
 
 .zoomImage:hover {
-    width: 600px;
+    width: 1000px;
 }
 
 .footer {
@@ -16,11 +16,25 @@
     text-align: center;
 }
 
-nav {
+.navbar-brand {
     margin: 10px;
-    width: 100%;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color:darkcyan;
+}
+
+.nav-item {
+    margin: 20px;
+    font-size: 2em;
+}
+
+.container-fluid-2 {
+    margin: 20px;
 }
 
 .container-fluid {
-    background-image: url("lifeng-zhang.jpg");
+    margin: 30px;
 }
