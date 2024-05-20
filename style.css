@@ -16,18 +16,15 @@
     text-align: center;
 }
 
-.navbar-brand {
+.masthead-brand {
+    padding-top: 15px;
     margin: 10px;
     font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-nav {
-    background-color:darkcyan;
 }
 
 .nav-item {
-    margin: 20px;
+    display: inline-block;
+    margin: 10px;
     font-size: 2em;
 }
 
@@ -37,4 +34,13 @@ nav {
 
 .container-fluid {
     margin: 30px;
+}
+
+.container-1 {
+    text-align: center;
+}
+
+.btn {
+    block-size: 50px;
+    font-size: 2em;
 }
