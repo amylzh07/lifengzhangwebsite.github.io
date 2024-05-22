@@ -1,17 +1,38 @@
 .zoomImage {
-    width: 500px;
+    width: 800px;
     transition: width 1s;
 }
 
 .zoomImage:hover {
-    width: 600px;
+    width: 1000px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: antiquewhite;
+.masthead-brand {
+    padding-top: 15px;
+    margin: 10px;
+    font-size: 2em;
+
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.container-fluid-2 {
+    margin: 20px;
+}
+
+.container-fluid {
+    margin: 30px;
+}
+
+.container-1 {
     text-align: center;
+}
+
+.btn {
+    block-size: 50px;
+    font-size: 2em;
 }
