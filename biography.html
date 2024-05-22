@@ -1,156 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr Lifeng Zhang - Biography</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Biography</h1>
-
-    <br>
-
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <th rowspan="2">2007</th>
-            <td>Ph.D, Chemical Engineering</td>
-        </tr>
-        <tr>
-            <td>University of Waterloo, Waterloo, Canada</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2002</th>
-            <td>M.Sc, Molecular Engineering of Biological and Chemical Systems</td>
-        <tr>
-            <td>Singapore-MIT Alliance, Singapore</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2001</th>
-            <td>M.Sc, Chemical Engineering</td>
-        </tr>
-        <tr>
-            <td>Zhejiang University, Hangzhou, China</td>
-        </tr>
-        <tr>
-            <th rowspan="2">1998</th>
-            <td>B.Eng, Polymer Chemical Engineering</td>
-        </tr>
-        <tr>
-            <td>Zhejiang University, Hangzhou, China</td>
-        </tr>
-    </table>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dr Lifeng Zhang - Biography</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+      
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0">Lifeng Zhang</h3>
+            <nav class="nav nav-masthead nav-underline justify-content-center float-md-end">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="biography.html">Biography</a>
+              <a class="nav-link" href="research.html">Research</a>
+              <a class="nav-link" href="teaching.html">Teaching</a>
+              <a class="nav-link" href="publications.html">Publications</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </nav>
+          </div>
+        </header>
     
-    <br>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <h2>Professional Affiliations</h2>
-    <table>
-        <tr>
-            <th rowspan="2">2022-2023</th>
-            <td>Technical Program, Co-Chair</td>
-        </tr>
-        <tr>
-            <td>Chemical Engineering Conference</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2021 to Present</th>
-            <td>Section Editor</td>
-        </tr>
-        <tr>
-            <td>Hydrogen Energy, Energies</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2020-Present</th>
-            <td>Associate Editor</td>
-        </tr>
-        <tr>
-            <td>Canadian Journal of Chemical Engineering</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2016-Present</th>
-            <td>Member</td>
-        </tr>
-        <tr>
-            <td>Indian Society for Chemical Engineering</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2015-Present</th>
-            <td>Member</td>
-        </tr>
-        <tr>
-            <td>Professional Engineer in Saskatchewan</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2003-Present</td>
-            <td>Member</td>
-        </tr>
-        <tr>
-            <td>Canadian Society for Chemical Engineering</td>
-        </tr>
-    </table>
+        <br>
+        <br>
 
-    <br>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <table id="educationtable" class="table table-success table-striped-columns">
+                        <tr>
+                            <th class="display-5"colspan="2"><b>Education</b></th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2007</th>
+                            <td>Ph.D, Chemical Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>University of Waterloo, Waterloo, Canada</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2002</th>
+                            <td>M.Sc, Molecular Engineering of Biological and Chemical Systems</td>
+                        <tr>
+                            <td>Singapore-MIT Alliance, Singapore</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2001</th>
+                            <td>M.Sc, Chemical Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Zhejiang University, Hangzhou, China</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">1998</th>
+                            <td>B.Eng, Polymer Chemical Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Zhejiang University, Hangzhou, China</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-success table-striped-columns">
+                        <tr>
+                            <th class="display-5"colspan="2"><b>Professional Affiliations</b></th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2022-2023</th>
+                            <td>Technical Program, Co-Chair</td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Engineering Conference</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2021 to Present</th>
+                            <td>Section Editor</td>
+                        </tr>
+                        <tr>
+                            <td>Hydrogen Energy, Energies</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2020-Present</th>
+                            <td>Associate Editor</td>
+                        </tr>
+                        <tr>
+                            <td>Canadian Journal of Chemical Engineering</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2016-Present</th>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>Indian Society for Chemical Engineering</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2015-Present</th>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>Professional Engineer in Saskatchewan</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">2003-Present</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>Canadian Society for Chemical Engineering</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
 
-    <h2>Awards and Honors</h2>
-    <table>
-        <tr>
-            <th rowspan="2">2023</th>
-            <td>Provost’s College Awards for Outstanding Teaching</td>
-        </tr>
-        <tr>
-            <td>University of Saskatchewan</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2004-2006</th>
-            <td>International Doctoral Student Award</td>
-        </tr>
-        <tr>
-            <td>University of Waterloo</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2002-2004</th>
-            <td>International Graduate Student Award</td>
-        </tr>
-        <tr>
-            <td>University of Waterloo</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2003-2004</th>
-            <td>Faculty of Engineering Scholarship</td>
-        </tr>
-        <tr>
-            <td>University of Waterloo</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2001-2002</th>
-            <td>Graduate Fellowship</td>
-        </tr>
-        <tr>
-            <td>Singapore-MIT Alliance</td>
-        </tr>
-        <tr>
-            <th rowspan="2">2000-2001</th>
-            <td>First-Class Student Scholarship</td>
-        </tr>
-        <tr>
-            <td>Zhejiang University</td>
-        </tr>
-        <tr>
-            <th rowspan="2">1998</td>
-            <td>Excellent Graduate (Top 5%)</td>
-        </tr>
-        <tr>
-            <td>Zhejiang University</td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <br>
+        <div class="container align-self-center">
+            <table class="table table-success table-striped-columns">
+                <tr>
+                    <th class="display-5"colspan="2"><b>Awards and Honors</b></th>
+                </tr>
+                <tr>
+                    <th rowspan="2">2023</th>
+                    <td>Provost’s College Awards for Outstanding Teaching</td>
+                </tr>
+                <tr>
+                    <td>University of Saskatchewan</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2004-2006</th>
+                    <td>International Doctoral Student Award</td>
+                </tr>
+                <tr>
+                    <td>University of Waterloo</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2002-2004</th>
+                    <td>International Graduate Student Award</td>
+                </tr>
+                <tr>
+                    <td>University of Waterloo</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2003-2004</th>
+                    <td>Faculty of Engineering Scholarship</td>
+                </tr>
+                <tr>
+                    <td>University of Waterloo</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2001-2002</th>
+                    <td>Graduate Fellowship</td>
+                </tr>
+                <tr>
+                    <td>Singapore-MIT Alliance</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2000-2001</th>
+                    <td>First-Class Student Scholarship</td>
+                </tr>
+                <tr>
+                    <td>Zhejiang University</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">1998</td>
+                    <td>Excellent Graduate (Top 5%)</td>
+                </tr>
+                <tr>
+                    <td>Zhejiang University</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
 
-<footer class="footer">
-    <p>To request a CV, please <a href="contact.html">contact Dr. Zhang</a> directly.</p>
-</footer>
-
-</body>
+        <footer class="footer mt-auto py-3 px-3 bg-success align-self-center rounded">
+            <div class="container-fluid">
+                <span class="text-white-50">To request a CV please <a class="text-white-50" href="contact.html">contact</a> Dr Zhang directly.</span>
+            </div>
+        </footer>
+    </body>
 </html>

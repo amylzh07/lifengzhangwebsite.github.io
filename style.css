@@ -7,20 +7,10 @@
     width: 1000px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: antiquewhite;
-    text-align: center;
-}
-
 .masthead-brand {
     padding-top: 15px;
     margin: 10px;
     font-size: 2em;
-    
 
 }
 
