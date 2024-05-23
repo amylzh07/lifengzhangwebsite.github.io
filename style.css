@@ -36,3 +36,21 @@
     block-size: 50px;
     font-size: 2em;
 }
+
+.list-group {
+    width: 500px;
+    transition: width 1s;
+}
+
+.list-group:hover {
+    width: 700px;
+}
+
+.table-striped-columns {
+    width: 500px;
+    transition: width 1s;
+}
+
+.table-striped-columns:hover {
+    width: 600px
+}

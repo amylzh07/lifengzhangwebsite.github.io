@@ -7,15 +7,10 @@ Website outline:
         -> Introduction
         -> Education
         -> Professional affiliations
+        -> Awards
     --Research
     --Teaching
     --Publications
         --ResearchGate
         --Google Scholar
-    --News
-        -> Articles
-        --Asian Heritage Month article
-        --Provost Teaching Award articles
-        -> Awards
-            --
     --Contact
