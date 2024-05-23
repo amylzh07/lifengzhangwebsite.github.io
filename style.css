@@ -47,10 +47,10 @@
 }
 
 .table-striped-columns {
-    width: 500px;
+    width: 700px;
     transition: width 1s;
 }
 
 .table-striped-columns:hover {
-    width: 600px
+    width: 1000px
 }
