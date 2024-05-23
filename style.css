@@ -54,3 +54,12 @@
 .table-striped-columns:hover {
     width: 1000px
 }
+
+.card {
+    width: 800px;
+    transition: width, 1s;
+}
+
+.card:hover {
+    width: 1000px;
+}
